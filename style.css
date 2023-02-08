@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+strong {
+  color: rgb(255, 225, 0);
+}
+.first{
+  border: 1px salmon solid;
+  padding: 10px;
+}
+.quest2{
+  border: 2px solid salmon;
+  padding: 10px;
+}
+.quest2,.box {
+  margin-top: 50px;
+}
+.quest3{
+  margin-top: 50px;
+  border: 2px solid salmon;
+  padding: 10px;
+}
+.quest4{
+  margin-top: 50px;
+    border: 2px solid salmon;
+    padding: 10px;
+}
+mark{
+  padding: 5px;
+}
